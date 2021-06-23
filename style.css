@@ -37,12 +37,13 @@ body {
 
 
 .card__container {
+  display: flex;
+  flex-direction: column;
   background-color: var(--dark-desaturated-blue);
   max-width: 480px;
   margin: 8vh 5vw;
   border-radius: 10px;
 }
-
 
 .card__image--colored {
   position: relative;
@@ -120,3 +121,50 @@ body {
   color:var(--white-more-transparent)
 }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media only screen and (min-width: 1150px) {
+  .card__container {
+    flex-direction: row-reverse;
+    background-color: var(--dark-desaturated-blue);
+    max-width: 1200px;
+    margin: 15vh auto;
+  }
+
+  .card__image--colored:before {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .card__image {
+    display: block;
+    height: auto;
+    border-radius: 0 10px 10px 0;
+  }
+
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    justify-content: space-around;
+    padding: 5vh 8%;
+  }
+
+  .card__title {
+    text-align: left;
+  }
+  
+  .card__description {
+    margin-right: 12%;
+    margin-bottom: 2vh;
+    text-align: left;
+  }
+
+  .stats__container {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .stat {
+    flex-grow: 1;
+  }
+}
