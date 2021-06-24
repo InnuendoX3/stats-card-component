@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [www.frontendmentor.io/solutions/mobilefirst-solution-using-flexbox-and-bem-naming-convention-TREkbbs-5](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-flexbox-and-bem-naming-convention-TREkbbs-5)
+- Live Site URL: [innuendox3.github.io/stats-card-component](https://innuendox3.github.io/stats-card-component/)
 
 ## My process
 
