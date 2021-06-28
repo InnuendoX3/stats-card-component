@@ -12,7 +12,6 @@
 
 html {
   box-sizing: border-box;
-  font-size: 16px;
 }
 
 *, *:before, *:after {
@@ -72,7 +71,7 @@ body {
   color: var(--white);
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -85,7 +84,7 @@ body {
   padding: 2vh 0;
   color: var(--white-transparent);
   font-family:'Lexed Deca', sans-serif;
-  font-size: 15px;
+  font-size: 0.95rem;
   text-align: center;
   line-height: 1.6;
 }
@@ -103,23 +102,26 @@ body {
 }
 
 .stat__number{
+  display: block;
   padding: 0.5vh 0;
   color: var(--white);
   font-family: 'Inter', sans-serif;
   font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .stat__header {
+  display: block;
   color: var(--white-more-transparent);
   font-family:'Lexed Deca', sans-serif;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-transform: uppercase;
 }
 
 .attribution { 
   margin: 2vh 0;
   color: var(--white-more-transparent);
-  font-size: 11px;
+  font-size: 0.688rem;
   text-align: center;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
